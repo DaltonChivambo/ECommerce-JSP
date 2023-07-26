@@ -1,6 +1,6 @@
 # ECommerce-JSP Project
 
-![ECommerce-JSP Logo](your_project_logo.png) *(Replace 'your_project_logo.png' with your project's logo)*
+![ECommerce-JSP Logo]() *(Replace 'your_project_logo.png' with your project's logo)*
 
 ## Table of Contents
 
@@ -34,7 +34,6 @@ ECommerce-JSP is a full-stack e-commerce project built using Java Servlet Pages 
 - Seller Dashboard to Manage Products and Orders
 - Admin Panel to Manage Users, Categories, and Products
 
-*(Add any other features specific to your project)*
 
 ## 3. Technologies Used
 
