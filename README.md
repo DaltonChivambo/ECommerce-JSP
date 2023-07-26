@@ -1,6 +1,5 @@
 # ECommerce-JSP Project
 
-![ECommerce-JSP Logo]() *(Replace 'your_project_logo.png' with your project's logo)*
 
 ## Table of Contents
 
