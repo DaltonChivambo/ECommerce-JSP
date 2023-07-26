@@ -41,7 +41,6 @@ ECommerce-JSP is a full-stack e-commerce project built using Java Servlet Pages 
 - Apache Tomcat - Application Server
 - Bootstrap - Frontend Framework
 
-*(You can add more technologies if you are using additional libraries, frameworks, or tools)*
 
 ## 4. Getting Started
 
