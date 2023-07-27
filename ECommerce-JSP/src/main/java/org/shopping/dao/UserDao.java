@@ -13,7 +13,7 @@ public class UserDao {
     private PreparedStatement preparedStatement;
     private ResultSet resultSet;
 
-    UserDao(Connection connection){
+    public UserDao(Connection connection){
         this.connection = connection;
     }
 

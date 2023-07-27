@@ -4,6 +4,9 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import org.shopping.connection.ConnectionDB;
+import org.shopping.dao.UserDao;
+import org.shopping.model.User;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -20,8 +23,20 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html;charset=UTF-8");
-        try(PrintWriter printWriter = response.getWriter()){
-            printWriter.print("this is login servlet");
+        try(PrintWriter out = response.getWriter()){
+            String email = request.getParameter("login_email");
+            String password =request.getParameter("login_password");
+
+            UserDao userDao = new UserDao(ConnectionDB.getConnection());
+            User user = userDao.userLogin(email, password);
+            if (user != null){
+                out.print("User Login :)");
+                request.getSession().setAttribute("auth", user);
+                response.sendRedirect("index.jsp");
+            }else {
+                out.print("Wrong credentials!");
+            }
+            out.print(email+" - "+password);
         }
     }
 }

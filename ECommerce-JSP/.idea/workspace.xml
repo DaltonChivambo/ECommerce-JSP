@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d735d85a-2deb-4dbc-bb64-32e1518c5745" name="Changes" comment="feat: add LoginServlet">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="d735d85a-2deb-4dbc-bb64-32e1518c5745" name="Changes" comment="fix: servlet-api (use jar file instead maven dependency)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/shopping/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/shopping/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/shopping/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/shopping/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/doctype.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/shopping/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/shopping/dao/UserDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/shopping/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/shopping/servlet/LoginServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690420627758</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix: servlet-api (use jar file instead maven dependency)">
+      <created>1690479779494</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690479779494</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +149,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: view add login screen using boostrap" />
     <MESSAGE value="feat: add LoginServlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add LoginServlet" />
+    <MESSAGE value="fix: servlet-api (use jar file instead maven dependency)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: servlet-api (use jar file instead maven dependency)" />
   </component>
 </project>
