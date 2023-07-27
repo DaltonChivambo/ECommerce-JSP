@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d735d85a-2deb-4dbc-bb64-32e1518c5745" name="Changes" comment="feat: view add login screen using boostrap">
+    <list default="true" id="d735d85a-2deb-4dbc-bb64-32e1518c5745" name="Changes" comment="feat: add LoginServlet">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/shopping/connection/ConnectionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/shopping/connection/ConnectionDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/shopping/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/shopping/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/shopping/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/shopping/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/doctype.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/shopping/connection/ConnectionDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/shopping/connection/ConnectionDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/shopping/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/shopping/servlet/LoginServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +56,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/media/dalton/Extra/Files/02 - Developer/Projects/Java/Web/ECommerce-JSP/src/main/webapp",
-    "project.structure.last.edited": "Libraries",
+    "last_opened_file_path": "/opt/tomcat/latest/lib/servlet-api.jar",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.71034485",
     "settings.editor.selected.configurable": "configurable.group.build"
@@ -112,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690406902655</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: add LoginServlet">
+      <created>1690420584374</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690420584375</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: add LoginServlet">
+      <created>1690420627758</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690420627758</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +145,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: view add login screen using boostrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: view add login screen using boostrap" />
+    <MESSAGE value="feat: add LoginServlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add LoginServlet" />
   </component>
 </project>
