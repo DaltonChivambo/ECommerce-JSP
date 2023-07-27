@@ -20,7 +20,7 @@ public class ConnectionDB {
         this.database = "ecommerce_cart";
     }
 
-    public Connection getConnection(){
+    public static Connection getConnection(){
         Connection connection = null;
 
         try {
@@ -30,7 +30,8 @@ public class ConnectionDB {
         }
 
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://"+host+":"+porta+"/"+database+"?useSSL=false",user,pass);
+            ConnectionDB c = new ConnectionDB();
+            connection = DriverManager.getConnection("jdbc:mysql://"+c.host+":"+c.porta+"/"+c.database+"?useSSL=false",c.user,c.pass);
             System.out.println("Connected");
         }catch (SQLException e){
             e.printStackTrace();

@@ -4,25 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d735d85a-2deb-4dbc-bb64-32e1518c5745" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/Web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Teste/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Teste/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Teste/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Teste/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Teste/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Teste/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Teste/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Teste/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Teste/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Teste/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="d735d85a-2deb-4dbc-bb64-32e1518c5745" name="Changes" comment="feat: view add login screen using boostrap">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/commerce/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/shopping/connection/ConnectionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/shopping/connection/ConnectionDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/shopping/connection/ConnectionDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/shopping/connection/ConnectionDB.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +53,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+    "last_opened_file_path": "/media/dalton/Extra/Files/02 - Developer/Projects/Java/Web/ECommerce-JSP/src/main/webapp",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.71034485",
+    "settings.editor.selected.configurable": "configurable.group.build"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="tomcat" type="com.poratu.idea.plugins.tomcat">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
@@ -80,9 +74,6 @@
       <predefined_log_file id="Tomcat Host Manager Log" />
       <option name="contextPath" value="/ECommerce-JSP" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
@@ -107,6 +98,21 @@
       <option name="presentableId" value="Default" />
       <updated>1690234817784</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: view add login screen using boostrap">
+      <created>1690406872816</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690406872816</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: view add login screen using boostrap">
+      <created>1690406902655</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690406902655</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,5 +125,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: view add login screen using boostrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: view add login screen using boostrap" />
   </component>
 </project>
