@@ -6,14 +6,14 @@ import java.sql.SQLException;
 
 public class ConnectionDB {
 
-    private String porta;
+    private String port;
     private String host;
     private String user;
     private String pass;
     private String database;
 
     public ConnectionDB() {
-        this.porta = "3306";
+        this.port = "3306";
         this.host = "localhost";
         this.user = "root";
         this.pass = "";
@@ -31,7 +31,7 @@ public class ConnectionDB {
 
         try {
             ConnectionDB c = new ConnectionDB();
-            connection = DriverManager.getConnection("jdbc:mysql://"+c.host+":"+c.porta+"/"+c.database+"?useSSL=false",c.user,c.pass);
+            connection = DriverManager.getConnection("jdbc:mysql://"+c.host+":"+c.port+"/"+c.database+"?useSSL=false",c.user,c.pass);
             System.out.println("Connected");
         }catch (SQLException e){
             e.printStackTrace();

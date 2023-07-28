@@ -1,4 +1,10 @@
-<!doctype html>
+<%@ page import="org.shopping.model.*"%>
+
+<% User auth = (User) request.getSession().getAttribute("auth");
+if(auth!=null){
+    response.sendRedirect("index.jsp");
+}
+%>
 <html lang="en">
   <head>
     <title>Shopping Cart Login</title>
@@ -15,11 +21,11 @@
                         <label>Email Address</label>
                         <input type="email" class="form-control" name="login_email"placeholder="Enter your email" required>
                     </div>
-                     <div class="form-group">
+                     <div class="form-group my-3">
                         <label>Password</label>
                         <input type="password" class="form-control" name="login_password"placeholder="**********" required>
                      </div>
-                     <div class="text_center">
+                     <div class="text_center my-3">
                         <button type="submit" class="btn btn-primary">Login</button>
                      </div>
                 </form>

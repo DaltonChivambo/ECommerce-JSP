@@ -11,7 +11,7 @@ import org.shopping.model.User;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(value = "/user-login")
+@WebServlet("/user-login")
 public class LoginServlet extends HttpServlet {
     private static final long serialVersionUID =  1L;
 
@@ -36,7 +36,6 @@ public class LoginServlet extends HttpServlet {
             }else {
                 out.print("Wrong credentials!");
             }
-            out.print(email+" - "+password);
         }
     }
 }
