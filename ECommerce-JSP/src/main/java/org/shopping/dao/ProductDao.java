@@ -18,8 +18,8 @@ public class ProductDao {
         this.connection = connection;
     }
 
-    public ArrayList<Product> getAllProducts(){
-        ArrayList<Product> products= new ArrayList<>();
+    public ArrayList<Product> getAllProducts() {
+        ArrayList<Product> products = new ArrayList<>();
 
 
         try {
@@ -27,7 +27,7 @@ public class ProductDao {
             preparedStatement = connection.prepareStatement(query);
             resultSet = preparedStatement.executeQuery();
 
-            while (resultSet.next()){
+            while (resultSet.next()) {
                 Product product = new Product();
                 product.setId(resultSet.getInt("id"));
                 product.setName(resultSet.getString("name"));
@@ -37,22 +37,22 @@ public class ProductDao {
                 products.add(product);
             }
 
-        }catch(Exception exception){
+        } catch (Exception exception) {
             exception.printStackTrace();
             System.out.println(exception.getMessage());
-        }finally {
+        } finally {
             try {
-                if (preparedStatement != null){
+                if (preparedStatement != null) {
                     preparedStatement.close();
                 }
-            }catch (SQLException e){
+            } catch (SQLException e) {
                 e.printStackTrace();
             }
             try {
-                if (connection != null){
+                if (connection != null) {
                     connection.close();
                 }
-            }catch (SQLException e){
+            } catch (SQLException e) {
                 e.printStackTrace();
             }
         }

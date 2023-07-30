@@ -13,20 +13,20 @@ public class UserDao {
     private PreparedStatement preparedStatement;
     private ResultSet resultSet;
 
-    public UserDao(Connection connection){
+    public UserDao(Connection connection) {
         this.connection = connection;
     }
 
-    public User userLogin(String email, String password){
+    public User userLogin(String email, String password) {
         User user = null;
-        try{
+        try {
             query = "SELECT * FROM users WHERE email=? and password=?";
             preparedStatement = connection.prepareStatement(query);
-            preparedStatement.setString(1,email);
-            preparedStatement.setString(2,password);
+            preparedStatement.setString(1, email);
+            preparedStatement.setString(2, password);
             resultSet = preparedStatement.executeQuery();
 
-            if (resultSet.next()){
+            if (resultSet.next()) {
                 user = new User();
                 user.setId(resultSet.getInt("id"));
                 user.setName(resultSet.getString("name"));
@@ -34,21 +34,21 @@ public class UserDao {
                 //Don't return password user for security reasons.
 
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             System.out.println(e.getMessage());
-        }finally {
+        } finally {
             try {
                 if (preparedStatement != null) {
                     preparedStatement.close();
                 }
-            }catch (SQLException e){
+            } catch (SQLException e) {
             }
             try {
                 if (connection != null) {
                     connection.close();
                 }
-            }catch (SQLException e){
+            } catch (SQLException e) {
 
             }
         }

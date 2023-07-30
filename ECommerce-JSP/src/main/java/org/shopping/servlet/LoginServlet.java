@@ -13,7 +13,7 @@ import java.io.PrintWriter;
 
 @WebServlet("/user-login")
 public class LoginServlet extends HttpServlet {
-    private static final long serialVersionUID =  1L;
+    private static final long serialVersionUID = 1L;
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -23,17 +23,17 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html;charset=UTF-8");
-        try(PrintWriter out = response.getWriter()){
+        try (PrintWriter out = response.getWriter()) {
             String email = request.getParameter("login_email");
-            String password =request.getParameter("login_password");
+            String password = request.getParameter("login_password");
 
             UserDao userDao = new UserDao(ConnectionDB.getConnection());
             User user = userDao.userLogin(email, password);
-            if (user != null){
+            if (user != null) {
                 out.print("User Login :)");
                 request.getSession().setAttribute("auth", user);
                 response.sendRedirect("index.jsp");
-            }else {
+            } else {
                 out.print("Wrong credentials!");
             }
         }

@@ -16,19 +16,19 @@
                         <a class="nav-link" href="cart.jsp">Cart</a>
                     </li>
                     <%
-                    if(auth != null){%>
+                        if (auth != null) {%>
                     <li class="nav-item">
                         <a class="nav-link" aria-disabled="true" href="orders.jsp">Orders</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-disabled="true" href="log-out">Logout</a>
                     </li>
-                    <%}else{%>
+                    <%} else {%>
                     <li class="nav-item">
                         <a class="nav-link" aria-disabled="true" href="login.jsp">Login</a>
                     </li>
                     <%}%>
-                    
+
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
