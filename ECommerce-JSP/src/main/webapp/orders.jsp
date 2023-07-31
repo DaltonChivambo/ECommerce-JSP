@@ -7,7 +7,7 @@
         request.setAttribute("auth", auth);
     }
 %>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Shopping Cart Orders</title>

@@ -5,6 +5,8 @@
         response.sendRedirect("index.jsp");
     }
 %>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Shopping Cart Login</title>

@@ -15,7 +15,7 @@
 
 %>
 
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Welcome to Shopping Cart!</title>
@@ -39,7 +39,7 @@
                     <h6 class="category">Category: <%= p.getCategory() %>
                     </h6>
                     <div class="mt-3 d-flex justify-content-between">
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-dark">Add to Cart</a>
                         <a href="#" class="btn btn-primary">Buy Now</a>
                     </div>
                 </div>
