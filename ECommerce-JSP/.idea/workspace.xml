@@ -4,15 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d735d85a-2deb-4dbc-bb64-32e1518c5745" name="Changes" comment="organization: indent JSP files">
+    <list default="true" id="d735d85a-2deb-4dbc-bb64-32e1518c5745" name="Changes" comment="fix: image dimension">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/includes/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/includes/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/includes/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/includes/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/shopping/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/shopping/servlet/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/orders.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/orders.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/product_images/men-suits.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/product_images/smoking-e-cigarette-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/product_images/smoking-e-cigarette.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/WEB-INF/classes/org/shopping/connection/ConnectionDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/WEB-INF/classes/org/shopping/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/WEB-INF/classes/org/shopping/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/WEB-INF/classes/org/shopping/servlet/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/WEB-INF/classes/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/WEB-INF/lib/mysql-connector-j-8.0.33.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/WEB-INF/lib/protobuf-java-3.21.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/cart.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/doctype.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/includes/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/includes/head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/includes/navbar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/orders.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/shopping/connection/ConnectionDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/shopping/dao/ProductDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/shopping/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/shopping/model/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/shopping/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/shopping/servlet/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/shopping/servlet/LogoutServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +67,7 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="5453a38f-6782-43a4-8598-241aef7f75bc" />
+        <option name="accountId" value="d7116d6e-cf60-44a7-b9cb-eceac49e8a6d" />
         <option name="url" value="https://github.com/DaltonChivambo/ECommerce-JSP.git" />
       </UrlAndAccount>
     </option>
@@ -66,26 +91,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/media/dalton/Extra/Files/02 - Developer/Projects/Java/Web/ECommerce-JSP/src/main/webapp/product_images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.71034485",
-    "settings.editor.selected.configurable": "preferences.fileTypes",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/dalton/Extra/Files/02 - Developer/Projects/Java/Web/ECommerce-JSP/src/main/webapp/product_images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.71034485&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/product_images" />
@@ -126,7 +151,8 @@
       <updated>1690234817784</updated>
       <workItem from="1690739077151" duration="7504000" />
       <workItem from="1690789329139" duration="1319000" />
-      <workItem from="1690796584729" duration="1703000" />
+      <workItem from="1690796584729" duration="2102000" />
+      <workItem from="1690799001352" duration="5548000" />
     </task>
     <task id="LOCAL-00001" summary="feat: view add login screen using boostrap">
       <created>1690406872816</created>
@@ -199,7 +225,23 @@
       <option name="project" value="LOCAL" />
       <updated>1690741425708</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix: image dimension">
+      <option name="closed" value="true" />
+      <created>1690798357682</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690798357682</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix: image dimension">
+      <option name="closed" value="true" />
+      <created>1690798398035</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1690798398035</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +265,7 @@
     <MESSAGE value="feat: add login authentication" />
     <MESSAGE value="feat: add getAllProducts" />
     <MESSAGE value="organization: indent JSP files" />
-    <option name="LAST_COMMIT_MESSAGE" value="organization: indent JSP files" />
+    <MESSAGE value="fix: image dimension" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: image dimension" />
   </component>
 </project>

@@ -21,11 +21,11 @@
             <form action="user-login" method="post">
                 <div class="form-group">
                     <label>Email Address</label>
-                    <input type="email" class="form-control" name="login_email" placeholder="Enter your email" required>
+                    <input type="email" class="form-control" name="login-email" placeholder="Enter your email" required>
                 </div>
                 <div class="form-group my-3">
                     <label>Password</label>
-                    <input type="password" class="form-control" name="login_password" placeholder="**********" required>
+                    <input type="password" class="form-control" name="login-password" placeholder="**********" required>
                 </div>
                 <div class="text_center my-3">
                     <button type="submit" class="btn btn-primary">Login</button>
