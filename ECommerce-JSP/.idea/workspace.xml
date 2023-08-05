@@ -4,40 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d735d85a-2deb-4dbc-bb64-32e1518c5745" name="Changes" comment="fix: image dimension">
+    <list default="true" id="d735d85a-2deb-4dbc-bb64-32e1518c5745" name="Changes" comment="fix:">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/shopping/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/shopping/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/product_images/smoking-e-cigarette-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/product_images/smoking-e-cigarette.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/WEB-INF/classes/org/shopping/connection/ConnectionDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/WEB-INF/classes/org/shopping/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/WEB-INF/classes/org/shopping/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/WEB-INF/classes/org/shopping/servlet/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/WEB-INF/classes/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/WEB-INF/lib/mysql-connector-j-8.0.33.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/WEB-INF/lib/protobuf-java-3.21.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/cart.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/doctype.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/includes/footer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/includes/head.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/includes/navbar.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ECommerce-JSP/orders.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/shopping/connection/ConnectionDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/shopping/dao/ProductDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/shopping/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/shopping/model/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/shopping/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/shopping/servlet/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/shopping/servlet/LogoutServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +121,8 @@
       <workItem from="1690789329139" duration="1319000" />
       <workItem from="1690796584729" duration="2102000" />
       <workItem from="1690799001352" duration="5548000" />
+      <workItem from="1690895435792" duration="142000" />
+      <workItem from="1690908950542" duration="1138000" />
     </task>
     <task id="LOCAL-00001" summary="feat: view add login screen using boostrap">
       <created>1690406872816</created>
@@ -241,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690798398035</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix:">
+      <option name="closed" value="true" />
+      <created>1690895564626</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690895564626</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +244,7 @@
     <MESSAGE value="feat: add getAllProducts" />
     <MESSAGE value="organization: indent JSP files" />
     <MESSAGE value="fix: image dimension" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: image dimension" />
+    <MESSAGE value="fix:" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:" />
   </component>
 </project>
